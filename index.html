@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoveEase - Your Trusted Moving Company</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <div class="landing-page">
+        <h1>MoveEase</h1>
+        <p>Your Trusted Moving Company - Reliable, Fast, and Affordable</p>
+        <button class="cta-button" id="quoteButton">Get a Free Quote</button>
+        
+        <div class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Residential Moving</li>
+                <li>Commercial Moving</li>
+                <li>Long-Distance Moving</li>
+                <li>Packing and Unpacking Services</li>
+                <li>Storage Solutions</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal for Get a Quote -->
+    <div id="quoteModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Get a Free Quote</h2>
+            <form id="quoteForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="moveDate">Move Date:</label>
+                <input type="date" id="moveDate" name="moveDate" required>
+                
+                <label for="message">Additional Details:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
