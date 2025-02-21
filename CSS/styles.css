@@ -6,7 +6,7 @@ body, html {
 }
 
 .landing-page {
-    background-image: url("/images/truck.jpg"); 
+    background-image: url("../images/truck.jpg"); 
     background-size: cover;
     background-position: center;
     height: 100%;
